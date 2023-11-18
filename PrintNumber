@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class PrintNumber {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt the user to enter a number
+        System.out.print("Enter a number: ");
+
+        // Read the entered number
+        int number = scanner.nextInt();
+
+        // Print the entered number
+        System.out.println("The number you entered is: " + number);
+
+        scanner.close(); // Close the scanner
+    }
+}
